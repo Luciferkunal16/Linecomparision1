@@ -1,7 +1,6 @@
-
 import java.util.Scanner;
 
-public class EqualLines {
+public class CompareLines {
 	public static void main(String[] args) {
 		
 	
@@ -34,10 +33,7 @@ public class EqualLines {
 	
 	Integer val1=new Integer((int)Line1FinalResult);
 	Integer val2=new Integer((int)Line2FinalResult);
-	System.out.println(val1.equals(val2));
-	
-	
-	 
-			
+	System.out.println(val1.compareTo(val2));
+
 }
 }
